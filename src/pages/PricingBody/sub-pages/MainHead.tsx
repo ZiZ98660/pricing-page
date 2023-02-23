@@ -5,7 +5,7 @@ import CustomSelect from '../../../components/Select.component';
 
 
 const MainHead = () => {
-  type Options ={
+  type Options = {
     readonly label: string
     readonly value: string
   }
