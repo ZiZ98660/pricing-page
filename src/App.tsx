@@ -12,9 +12,11 @@ function App() {
     path: string
   }[]
   const menuOptions: Readonly<Options> = [
-    { name: "Home", path: "#" },
-    { name: "About", path: "#" },
-    { name: "Contact", path: "#" },
+    { name: "Products", path: "#" },
+    { name: "Developers", path: "#" },
+    { name: "Companies", path: "#" },
+    { name: "Use Cases", path: "#" },
+    { name: "Pricing", path: "#" },
   ];
 
   const handleButtonClick = () => {
@@ -22,7 +24,11 @@ function App() {
   };
 
   return (
-    <div>
+    <div
+    style={{
+      width: '100%'
+    }}
+    >
       <Navbar
         logo="https://res.cloudinary.com/sendchamp/image/upload/v1647472661/Sendchamp%20Website/logos/NavLogo_nhyqah.svg"
         menuOptions={menuOptions}

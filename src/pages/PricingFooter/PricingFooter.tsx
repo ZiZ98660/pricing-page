@@ -1,4 +1,4 @@
-import { Box, Flex, Text, Link, Image, LinkProps, BoxProps, ImageProps } from "@chakra-ui/react";
+import { Box, Flex, Text, Link, Image, LinkProps, ImageProps } from "@chakra-ui/react";
 import styled from "@emotion/styled";
 
 
@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
             {/* <StyledLink href="#" mb={2}>Link 4</StyledLink> */}
           </Flex>
           <Flex direction="column"  mr={[0, 0, 8]} mb={4}>
-            <Text fontWeight="bold"  color={'rgba(255,255,255,.56)'} mb={4}>Solutions</Text>
+            <Text fontWeight="bold"  color={'rgba(255,255,255,.56)'}  mb={4}>Solutions</Text>
             <StyledLink href="#" mb={2}>Onboard</StyledLink>
             <StyledLink href="#" mb={2}>Engage</StyledLink>
             <StyledLink href="#" mb={2}>Support</StyledLink>
@@ -61,23 +61,23 @@ const Footer: React.FC = () => {
         </Flex>
 
         {/* Second row */}
-        <Flex  direction='row' justify= 'space-between' mt={[4, 4, 0]}>
+        <Flex borderTop={`solid 1px rgba(255,255,255,.24)`} borderBottom = {`solid 1px rgba(255,255,255,.24)`}  direction='row' justify= 'space-between' mt={[4, 4, 0]}>
           <Flex direction="row"
            mr = {[0, 0, 8]} mb={4}>
             <Box
 
         cursor='pointer'
-         as="img" src="https://res.cloudinary.com/sendchamp/image/upload/v1647472665/Sendchamp%20Website/logos/SendchampWhite_kelitk.svg"  alt="Logo"  mr={2} />
+         as="img" src="https://res.cloudinary.com/sendchamp/image/upload/v1647472665/Sendchamp%20Website/logos/SendchampWhite_kelitk.svg"  alt="Logo" w={'75%'}  mr={2} />
             {/* <Text fontWeight="bold" mb={4}>Column 1</Text> */}
         </Flex>
         <Flex direction="row" alignItems={'center'} mr={[0, 0, 8]} mb={4}>
         <StyledImage
-         src = "https://res.cloudinary.com/sendchamp/image/upload/v1647472661/Sendchamp%20Website/homePage/Nigeria_xxb47e.svg" alt="logo" w="50%" h="50%" />
-        <Text fontWeight="bold" mb={4}>142, Ahmadu Bello Way, Victoria Island, Lagos, Nigeria</Text>
+         src = "https://res.cloudinary.com/sendchamp/image/upload/v1647472661/Sendchamp%20Website/homePage/Nigeria_xxb47e.svg" alt="logo" w="36%" h="36%" />
+        <Text fontWeight="bold">142, Ahmadu Bello Way, Victoria Island, Lagos, Nigeria</Text>
         </Flex>
         <Flex direction="row" alignItems={'center'} mr={[0, 0, 8]} mb={4}>
-        <StyledImage src="https://res.cloudinary.com/sendchamp/image/upload/v1647472668/Sendchamp%20Website/homePage/USA_ths9a7.svg" alt="logo" w="50%" h="50%" />
-        <Text fontWeight="bold" mb={4}>2055 Limestone Rd STE 200-C Wilmington,DE 19808</Text> 
+        <StyledImage src="https://res.cloudinary.com/sendchamp/image/upload/v1647472668/Sendchamp%20Website/homePage/USA_ths9a7.svg" alt="logo" w="36%" h="36%" />
+        <Text fontWeight="bold">2055 Limestone Rd STE 200-C Wilmington,DE 19808</Text> 
         </Flex>
         </Flex>
         {/* Third row */}
