@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
             {/* <StyledLink href="#" mb={2}>Link 4</StyledLink> */}
           </Flex>
           <Flex direction="column"  mr={[0, 0, 8]} mb={4}>
-            <Text fontWeight="bold"  color={'rgba(255,255,255,.56)'} mb={4}>Solutions</Text>
+            <Text fontWeight="bold"  color={'rgba(255,255,255,.56)'}  mb={4}>Solutions</Text>
             <StyledLink href="#" mb={2}>Onboard</StyledLink>
             <StyledLink href="#" mb={2}>Engage</StyledLink>
             <StyledLink href="#" mb={2}>Support</StyledLink>
