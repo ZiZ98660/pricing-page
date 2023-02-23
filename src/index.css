@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 *::before, *::after{
-  word-wrap: break-word !important;
+  word-wrap: break-word !important ;
 }
 body {
   margin: 0;
